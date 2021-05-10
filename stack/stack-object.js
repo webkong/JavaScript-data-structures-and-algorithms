@@ -33,6 +33,7 @@ class Stack {
     return this.count;
   }
 }
+module.exports = Stack;
 
 // 对于类和数据结构，要保护内容数据，只有暴露的方法可以使用，来修改和访问
 // 1. 约定_命名私有变量，治标不治本。还是可以通过原型链的方式访问到。Object.getOwnPropertyNames(stack) stack.items

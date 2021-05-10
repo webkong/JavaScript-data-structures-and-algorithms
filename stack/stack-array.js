@@ -25,5 +25,7 @@ class Stack {
     return this.items.length;
   }
 }
+module.exports = Stack;
+
 // 数组有序集合，为保证顺兴，需要跟多的内存空间
 //  直接获取元素，占用较少的内存空间，可以使用对象来存储。

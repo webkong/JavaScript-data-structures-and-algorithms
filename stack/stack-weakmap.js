@@ -28,5 +28,6 @@ class Stack {
     return s.length;
   }
 }
+module.exports = Stack;
 
 // https://es6.ruanyifeng.com/#docs/set-map#WeakMap-%E7%9A%84%E7%94%A8%E9%80%94
